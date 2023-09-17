@@ -1,0 +1,48 @@
+header {
+    margin: 20px;
+}
+
+.inner {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.inner＿left {
+    font-size: large;
+    color: #103486;
+}
+
+.inner＿right {
+    font-size: small;
+}
+
+a {
+    color: #103486;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+img {
+    position: relative;
+    margin: 0 0 0 auto;
+    width: 50%;
+    display: block;
+    z-index: 10;
+}
+
+.block {
+    position: absolute;
+    top: 60%;
+    width: 75%;
+    height: 30%;
+    background-color: #103486;
+    display: block;
+    z-index: 0;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+}
