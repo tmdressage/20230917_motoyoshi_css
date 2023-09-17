@@ -1,5 +1,6 @@
-header {
+.header {
     margin: 20px;
+
 }
 
 .inner {
@@ -8,19 +9,24 @@ header {
     flex-direction: row;
 }
 
-.inner＿left {
+.inner-left {
     font-size: large;
     color: #103486;
 }
 
-.inner＿right {
+a {
+    text-decoration: none;
+    color: #103486;
+}
+
+.nav-list {
+    display: flex;
+    font-weight: bold;
     font-size: small;
 }
 
-a {
-    color: #103486;
-    margin-left: 10px;
-    font-weight: bold;
+.inner-right-text:not(:last-child) {
+    margin-right: 10px;
 }
 
 img {
